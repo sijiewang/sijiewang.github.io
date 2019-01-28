@@ -10,7 +10,6 @@ function draw() {
   
   push();
   translate(width*0.5, height*0.5);
-  rotate(frameCount / 200.0);
   fill(112,36,125);
   polygon(0, 0, 150, h); 
   pop();
