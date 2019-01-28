@@ -11,18 +11,21 @@ function draw() {
   push();
   translate(width*0.5, height*0.5);
   rotate(frameCount / 200.0);
+  fill(112,36,125);
   polygon(0, 0, 150, h); 
   pop();
   
   push();
   translate(width*0.5, height*0.5);
   rotate(frameCount / 50.0);
+  fill(189,68,52);
   polygon(0, 0, 100, m/10); 
   pop();
   
   push();
   translate(width*0.5, height*0.5);
   rotate(frameCount / -100.0);
+  fill(51,51,133);
   polygon(0, 0, 50, s/10); 
   pop();
 }
